@@ -38,8 +38,7 @@ public class ComputerScoreTest {
 	@Test(expected = IllegalArgumentException.class)  
 	public void testException2() {
 		ComputeScore.computeScore(new int[] {5,9});
-	
-    System.out.print("ComputeScoreTest: ok \n");
+		System.out.print("ComputeScoreTest: ok \n");
 	}
 	 
 }
